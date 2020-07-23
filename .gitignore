@@ -1,0 +1,10 @@
+# KiCad files
+*.rpt
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.sch-bak
+_saved_*
+fp-info-cache
+_autosave-*
+*.tmp
