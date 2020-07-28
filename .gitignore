@@ -4,6 +4,9 @@
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+*.csv
+*.xml
+*.ini
 _saved_*
 fp-info-cache
 _autosave-*
