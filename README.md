@@ -1,2 +1,2 @@
 # Prosaic
-Custom Mechanical Keyboard (68%, TKL)
+A 71-key custom mechanical keyboard design with a layout that is essentially a TKL without F-keys.
