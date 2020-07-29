@@ -5,11 +5,11 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Prosaic"
-Date "2020-07-18"
-Rev "-"
+Date "2020-07-28"
+Rev "A"
 Comp ""
-Comment1 "Keyboard, Controller"
-Comment2 ""
+Comment1 "by SiriusSam"
+Comment2 "Keyboard, Controller"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -539,25 +539,25 @@ Text Label 1500 5050 0    50   ~ 0
 col3
 Text Label 1500 5200 0    50   ~ 0
 col4
-Text Label 3400 3850 0    50   ~ 0
+Text Label 1500 5350 0    50   ~ 0
 col5
-Text Label 3400 4000 0    50   ~ 0
+Text Label 3400 3850 0    50   ~ 0
 col6
-Text Label 3400 4150 0    50   ~ 0
+Text Label 3400 4000 0    50   ~ 0
 col7
-Text Label 3400 4300 0    50   ~ 0
+Text Label 3400 4150 0    50   ~ 0
 col8
-Text Label 3400 4450 0    50   ~ 0
+Text Label 3400 4300 0    50   ~ 0
 col9
-Text Label 3400 4600 0    50   ~ 0
+Text Label 3400 4450 0    50   ~ 0
 col10
-Text Label 3400 4750 0    50   ~ 0
+Text Label 3400 4600 0    50   ~ 0
 col11
-Text Label 3400 4900 0    50   ~ 0
+Text Label 3400 4750 0    50   ~ 0
 col12
-Text Label 3400 5050 0    50   ~ 0
+Text Label 3400 4900 0    50   ~ 0
 col13
-Text Label 3400 5200 0    50   ~ 0
+Text Label 3400 5050 0    50   ~ 0
 col14
 Wire Wire Line
 	1500 4000 1750 4000
@@ -578,25 +578,23 @@ Wire Wire Line
 Wire Wire Line
 	1500 5200 1750 5200
 Wire Wire Line
-	3250 3850 3400 3850
+	3400 3850 3250 3850
 Wire Wire Line
-	3400 4000 3250 4000
+	3250 4000 3400 4000
 Wire Wire Line
-	3250 4150 3400 4150
+	3400 4150 3250 4150
 Wire Wire Line
-	3400 4300 3250 4300
+	3250 4300 3400 4300
 Wire Wire Line
 	3250 4450 3400 4450
 Wire Wire Line
-	3250 4600 3400 4600
+	3400 4600 3250 4600
 Wire Wire Line
-	3400 4750 3250 4750
+	3250 4750 3400 4750
 Wire Wire Line
-	3250 4900 3400 4900
+	3400 4900 3250 4900
 Wire Wire Line
-	3400 5050 3250 5050
-Wire Wire Line
-	3250 5200 3400 5200
+	3250 5050 3400 5050
 Text Label 6400 4250 0    50   ~ 0
 row0
 Text Label 6400 4350 0    50   ~ 0
@@ -678,8 +676,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 5450 8800 5450
 NoConn ~ 8800 3750
-NoConn ~ 8800 4250
-NoConn ~ 8800 4350
 NoConn ~ 8800 4750
 NoConn ~ 8800 4850
 NoConn ~ 6650 3550
@@ -731,7 +727,7 @@ NoConn ~ 5500 3400
 NoConn ~ 5500 3600
 NoConn ~ 5500 3700
 $Sheet
-S 1750 3750 1500 1550
+S 1750 3750 1500 1700
 U 5F1B28AF
 F0 "Switch Matrix" 50
 F1 "prosaic-switch-matrix.sch" 50
@@ -745,15 +741,35 @@ F8 "col1" I L 1750 4750 50
 F9 "col2" I L 1750 4900 50 
 F10 "col3" I L 1750 5050 50 
 F11 "col4" I L 1750 5200 50 
-F12 "col5" I R 3250 3850 50 
-F13 "col6" I R 3250 4000 50 
-F14 "col7" I R 3250 4150 50 
-F15 "col8" I R 3250 4300 50 
-F16 "col9" I R 3250 4450 50 
-F17 "col10" I R 3250 4600 50 
-F18 "col11" I R 3250 4750 50 
-F19 "col12" I R 3250 4900 50 
-F20 "col13" I R 3250 5050 50 
-F21 "col14" I R 3250 5200 50 
+F12 "col5" I L 1750 5350 50 
+F13 "col6" I R 3250 3850 50 
+F14 "col7" I R 3250 4000 50 
+F15 "col8" I R 3250 4150 50 
+F16 "col9" I R 3250 4300 50 
+F17 "col10" I R 3250 4450 50 
+F18 "col11" I R 3250 4600 50 
+F19 "col12" I R 3250 4750 50 
+F20 "col13" I R 3250 4900 50 
+F21 "col14" I R 3250 5050 50 
+F22 "col15" I R 3250 5200 50 
+F23 "col16" I R 3250 5350 50 
 $EndSheet
+Wire Wire Line
+	1500 5350 1750 5350
+Text Label 3400 5200 0    50   ~ 0
+col15
+Text Label 3400 5350 0    50   ~ 0
+col16
+Wire Wire Line
+	3250 5200 3400 5200
+Wire Wire Line
+	3250 5350 3400 5350
+Text Label 8900 4250 0    50   ~ 0
+col15
+Text Label 8900 4350 0    50   ~ 0
+col16
+Wire Wire Line
+	8800 4250 8900 4250
+Wire Wire Line
+	8800 4350 8900 4350
 $EndSCHEMATC

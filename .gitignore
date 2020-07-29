@@ -4,6 +4,7 @@
 *.bck
 *.kicad_pcb-bak
 *.sch-bak
+*.net
 *.csv
 *.xml
 *.ini
