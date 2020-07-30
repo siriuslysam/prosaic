@@ -1,6 +1,6 @@
-update=7/29/2020 6:05:32 PM
+update=7/29/2020 10:15:44 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=prosaic71.net
+LastNetListRead=prosaic.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -223,7 +223,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default

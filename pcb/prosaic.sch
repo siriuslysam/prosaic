@@ -13,8 +13,6 @@ Comment2 "Keyboard, Controller"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	6300 4950 6650 4950
 $Comp
 L power:GND #PWR0101
 U 1 1 5F1AE048
@@ -26,8 +24,6 @@ F 3 "" H 6300 4950 50  0001 C CNN
 	1    6300 4950
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6500 4850 6650 4850
 $Comp
 L power:VCC #PWR0102
 U 1 1 5F1AE04F
@@ -52,10 +48,6 @@ F 3 "" H 6050 4150 50  0001 C CNN
 	1    6050 4150
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9000 5550 8800 5550
-Wire Wire Line
-	8800 5650 9300 5650
 $Comp
 L power:GND #PWR0104
 U 1 1 5F1AE05E
@@ -93,8 +85,6 @@ F 3 "" H 9150 4550 50  0001 C CNN
 	1    9150 4550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8950 4450 8800 4450
 $Comp
 L power:GND #PWR0107
 U 1 1 5F1AE073
@@ -108,8 +98,6 @@ F 3 "" H 8950 4450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 3650 9300 3650
-Wire Wire Line
-	8800 3550 9000 3550
 $Comp
 L power:GND #PWR0108
 U 1 1 5F1AE07B
@@ -187,11 +175,6 @@ F 3 "" H 5950 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6100 4050
-Connection ~ 4900 4050
-Wire Wire Line
-	4900 4050 6100 4050
-Wire Wire Line
-	4600 4050 4900 4050
 Wire Wire Line
 	6100 3950 6650 3950
 Connection ~ 6100 3950
@@ -533,8 +516,6 @@ Text Label 1500 4600 0    50   ~ 0
 col0
 Text Label 1500 4750 0    50   ~ 0
 col1
-Text Label 1500 4900 0    50   ~ 0
-col2
 Text Label 1500 5050 0    50   ~ 0
 col3
 Text Label 1500 5200 0    50   ~ 0
@@ -572,8 +553,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 4750 1500 4750
 Wire Wire Line
-	1500 4900 1750 4900
-Wire Wire Line
 	1750 5050 1500 5050
 Wire Wire Line
 	1500 5200 1750 5200
@@ -595,90 +574,7 @@ Wire Wire Line
 	3400 4900 3250 4900
 Wire Wire Line
 	3250 5050 3400 5050
-Text Label 6400 4250 0    50   ~ 0
-row0
-Text Label 6400 4350 0    50   ~ 0
-row1
-Text Label 6400 4450 0    50   ~ 0
-row2
-Text Label 6400 4550 0    50   ~ 0
-row3
-Text Label 8900 5150 0    50   ~ 0
-row4
-Text Label 8900 5050 0    50   ~ 0
-col0
-Text Label 8900 4950 0    50   ~ 0
-col1
-Text Label 6400 4650 0    50   ~ 0
-col2
-Text Label 6400 5250 0    50   ~ 0
-col3
-Text Label 6400 5350 0    50   ~ 0
-col4
-Text Label 6400 5450 0    50   ~ 0
-col5
-Text Label 6400 5550 0    50   ~ 0
-col6
-Text Label 8900 5450 0    50   ~ 0
-col7
-Text Label 6400 5650 0    50   ~ 0
-col8
-Text Label 8900 5350 0    50   ~ 0
-col9
-Text Label 8900 5250 0    50   ~ 0
-col10
-Text Label 8900 3850 0    50   ~ 0
-col11
-Text Label 8900 3950 0    50   ~ 0
-col12
-Text Label 8900 4050 0    50   ~ 0
-col13
-Text Label 8900 4150 0    50   ~ 0
-col14
-Wire Wire Line
-	6400 4250 6650 4250
-Wire Wire Line
-	6400 4350 6650 4350
-Wire Wire Line
-	6400 4450 6650 4450
-Wire Wire Line
-	6400 4550 6650 4550
-Wire Wire Line
-	6400 4650 6650 4650
-Wire Wire Line
-	6400 5250 6650 5250
-Wire Wire Line
-	6400 5350 6650 5350
-Wire Wire Line
-	6650 5450 6400 5450
-Wire Wire Line
-	6400 5550 6650 5550
-Wire Wire Line
-	6650 5650 6400 5650
-Wire Wire Line
-	8800 3850 8900 3850
-Wire Wire Line
-	8900 3950 8800 3950
-Wire Wire Line
-	8800 4050 8900 4050
-Wire Wire Line
-	8900 4150 8800 4150
-Wire Wire Line
-	8800 4950 8900 4950
-Wire Wire Line
-	8900 5050 8800 5050
-Wire Wire Line
-	8800 5150 8900 5150
-Wire Wire Line
-	8900 5250 8800 5250
-Wire Wire Line
-	8800 5350 8900 5350
-Wire Wire Line
-	8900 5450 8800 5450
 NoConn ~ 8800 3750
-NoConn ~ 8800 4750
-NoConn ~ 8800 4850
-NoConn ~ 6650 3550
 Wire Wire Line
 	6100 1900 6350 1900
 Wire Wire Line
@@ -701,8 +597,6 @@ Wire Wire Line
 	5500 2100 5700 2100
 Wire Wire Line
 	5950 1400 5500 1400
-Wire Wire Line
-	4900 4050 4900 4000
 $Comp
 L Connector:USB_C_Receptacle J1
 U 1 1 5FF17B03
@@ -738,21 +632,21 @@ F5 "row3" I L 1750 4300 50
 F6 "row4" I L 1750 4450 50 
 F7 "col0" I L 1750 4600 50 
 F8 "col1" I L 1750 4750 50 
-F9 "col2" I L 1750 4900 50 
-F10 "col3" I L 1750 5050 50 
-F11 "col4" I L 1750 5200 50 
-F12 "col5" I L 1750 5350 50 
-F13 "col6" I R 3250 3850 50 
-F14 "col7" I R 3250 4000 50 
-F15 "col8" I R 3250 4150 50 
-F16 "col9" I R 3250 4300 50 
-F17 "col10" I R 3250 4450 50 
-F18 "col11" I R 3250 4600 50 
-F19 "col12" I R 3250 4750 50 
-F20 "col13" I R 3250 4900 50 
-F21 "col14" I R 3250 5050 50 
-F22 "col15" I R 3250 5200 50 
-F23 "col16" I R 3250 5350 50 
+F9 "col3" I L 1750 5050 50 
+F10 "col4" I L 1750 5200 50 
+F11 "col5" I L 1750 5350 50 
+F12 "col6" I R 3250 3850 50 
+F13 "col7" I R 3250 4000 50 
+F14 "col8" I R 3250 4150 50 
+F15 "col9" I R 3250 4300 50 
+F16 "col10" I R 3250 4450 50 
+F17 "col11" I R 3250 4600 50 
+F18 "col12" I R 3250 4750 50 
+F19 "col13" I R 3250 4900 50 
+F20 "col14" I R 3250 5050 50 
+F21 "col15" I R 3250 5200 50 
+F22 "col16" I R 3250 5350 50 
+F23 "col2" I L 1750 4900 50 
 $EndSheet
 Wire Wire Line
 	1500 5350 1750 5350
@@ -764,12 +658,150 @@ Wire Wire Line
 	3250 5200 3400 5200
 Wire Wire Line
 	3250 5350 3400 5350
-Text Label 8900 4250 0    50   ~ 0
+Text Label 6350 5250 0    50   ~ 0
+col14
+Text Label 6350 5350 0    50   ~ 0
 col15
-Text Label 8900 4350 0    50   ~ 0
+Text Label 6350 5450 0    50   ~ 0
 col16
+Text Label 6350 5550 0    50   ~ 0
+row0
+Text Label 6350 5650 0    50   ~ 0
+row1
 Wire Wire Line
-	8800 4250 8900 4250
+	6350 5250 6650 5250
 Wire Wire Line
-	8800 4350 8900 4350
+	6650 5350 6350 5350
+Wire Wire Line
+	6350 5450 6650 5450
+Wire Wire Line
+	6650 5550 6350 5550
+Wire Wire Line
+	6350 5650 6650 5650
+Text Label 8950 5450 0    50   ~ 0
+row4
+Text Label 8950 5350 0    50   ~ 0
+row3
+Text Label 6350 4650 0    50   ~ 0
+row2
+Text Label 8950 5250 0    50   ~ 0
+col13
+Text Label 8950 5150 0    50   ~ 0
+col12
+Text Label 8950 5050 0    50   ~ 0
+col11
+Text Label 8950 4950 0    50   ~ 0
+col10
+Text Label 8950 4850 0    50   ~ 0
+col9
+Text Label 8950 4750 0    50   ~ 0
+col8
+Text Label 8950 4350 0    50   ~ 0
+col7
+Text Label 8950 4250 0    50   ~ 0
+col6
+Text Label 8950 4150 0    50   ~ 0
+col5
+Text Label 8950 4050 0    50   ~ 0
+col4
+Text Label 8950 3950 0    50   ~ 0
+col3
+Text Label 6350 4550 0    50   ~ 0
+col1
+Text Label 6350 4450 0    50   ~ 0
+col0
+Wire Wire Line
+	6350 4450 6650 4450
+Wire Wire Line
+	6650 4550 6350 4550
+Wire Wire Line
+	6350 4650 6650 4650
+Wire Wire Line
+	8800 5450 8950 5450
+Wire Wire Line
+	8950 5350 8800 5350
+Wire Wire Line
+	8800 5250 8950 5250
+Wire Wire Line
+	8950 5150 8800 5150
+Wire Wire Line
+	8800 5050 8950 5050
+Wire Wire Line
+	8950 4950 8800 4950
+Wire Wire Line
+	8800 4850 8950 4850
+Wire Wire Line
+	8950 4750 8800 4750
+Wire Wire Line
+	8800 3950 8950 3950
+Wire Wire Line
+	8950 4050 8800 4050
+Wire Wire Line
+	8800 4150 8950 4150
+Wire Wire Line
+	8950 4250 8800 4250
+Wire Wire Line
+	8800 4350 8950 4350
+NoConn ~ 6650 4250
+NoConn ~ 6650 4350
+NoConn ~ 6650 3550
+Wire Wire Line
+	8800 3550 8900 3550
+Wire Wire Line
+	8800 5550 9000 5550
+Wire Wire Line
+	4600 4050 4900 4050
+Wire Wire Line
+	4900 4000 4900 4050
+Connection ~ 4900 4050
+Wire Wire Line
+	4900 4050 6100 4050
+Text Label 1500 4900 0    50   ~ 0
+col2
+Wire Wire Line
+	1500 4900 1750 4900
+Text Label 8950 3850 0    50   ~ 0
+col2
+Wire Wire Line
+	8950 3850 8800 3850
+Wire Wire Line
+	8800 4450 8950 4450
+Wire Wire Line
+	6300 4950 6650 4950
+Wire Wire Line
+	6500 4850 6650 4850
+Wire Wire Line
+	8800 5650 8900 5650
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F3379B5
+P 8900 3450
+F 0 "#FLG0101" H 8900 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 8900 3623 50  0000 C CNN
+F 2 "" H 8900 3450 50  0001 C CNN
+F 3 "~" H 8900 3450 50  0001 C CNN
+	1    8900 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3450 8900 3550
+Connection ~ 8900 3550
+Wire Wire Line
+	8900 3550 9000 3550
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F344283
+P 8900 5750
+F 0 "#FLG0102" H 8900 5825 50  0001 C CNN
+F 1 "PWR_FLAG" H 8900 5923 50  0000 C CNN
+F 2 "" H 8900 5750 50  0001 C CNN
+F 3 "~" H 8900 5750 50  0001 C CNN
+	1    8900 5750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8900 5750 8900 5650
+Connection ~ 8900 5650
+Wire Wire Line
+	8900 5650 9300 5650
 $EndSCHEMATC
