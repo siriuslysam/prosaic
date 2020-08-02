@@ -682,40 +682,40 @@ Text Label 8950 5450 0    50   ~ 0
 row4
 Text Label 8950 5350 0    50   ~ 0
 row3
-Text Label 6350 4650 0    50   ~ 0
-row2
-Text Label 8950 5250 0    50   ~ 0
-col13
-Text Label 8950 5150 0    50   ~ 0
-col12
-Text Label 8950 5050 0    50   ~ 0
-col11
-Text Label 8950 4950 0    50   ~ 0
-col10
-Text Label 8950 4850 0    50   ~ 0
-col9
-Text Label 8950 4750 0    50   ~ 0
-col8
-Text Label 8950 4350 0    50   ~ 0
-col7
-Text Label 8950 4250 0    50   ~ 0
-col6
-Text Label 8950 4150 0    50   ~ 0
-col5
-Text Label 8950 4050 0    50   ~ 0
-col4
-Text Label 8950 3950 0    50   ~ 0
-col3
 Text Label 6350 4550 0    50   ~ 0
+row2
+Text Label 6350 4650 0    50   ~ 0
+col13
+Text Label 8950 5250 0    50   ~ 0
+col12
+Text Label 8950 5150 0    50   ~ 0
+col11
+Text Label 8950 3950 0    50   ~ 0
+col10
+Text Label 8950 4050 0    50   ~ 0
+col9
+Text Label 8950 4150 0    50   ~ 0
+col8
+Text Label 8950 4250 0    50   ~ 0
+col7
+Text Label 8950 4350 0    50   ~ 0
+col6
+Text Label 8950 4750 0    50   ~ 0
+col5
+Text Label 8950 4850 0    50   ~ 0
+col4
+Text Label 8950 4950 0    50   ~ 0
+col3
+Text Label 6350 4350 0    50   ~ 0
 col1
 Text Label 6350 4450 0    50   ~ 0
 col0
 Wire Wire Line
-	6350 4450 6650 4450
+	6350 4350 6650 4350
 Wire Wire Line
-	6650 4550 6350 4550
+	6650 4450 6350 4450
 Wire Wire Line
-	6350 4650 6650 4650
+	6350 4550 6650 4550
 Wire Wire Line
 	8800 5450 8950 5450
 Wire Wire Line
@@ -743,7 +743,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 4350 8950 4350
 NoConn ~ 6650 4250
-NoConn ~ 6650 4350
 NoConn ~ 6650 3550
 Wire Wire Line
 	8800 3550 8900 3550
@@ -760,7 +759,7 @@ Text Label 1500 4900 0    50   ~ 0
 col2
 Wire Wire Line
 	1500 4900 1750 4900
-Text Label 8950 3850 0    50   ~ 0
+Text Label 8950 5050 0    50   ~ 0
 col2
 Wire Wire Line
 	8950 3850 8800 3850
@@ -804,4 +803,7 @@ Wire Wire Line
 Connection ~ 8900 5650
 Wire Wire Line
 	8900 5650 9300 5650
+NoConn ~ 8950 3850
+Wire Wire Line
+	6350 4650 6650 4650
 $EndSCHEMATC
