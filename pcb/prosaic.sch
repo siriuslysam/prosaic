@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Prosaic"
-Date "2020-07-28"
-Rev "A"
+Date "2020-08-02"
+Rev "A.1"
 Comp ""
 Comment1 "by SiriusSam"
 Comment2 "Keyboard, Controller"
@@ -123,55 +123,51 @@ $EndComp
 Wire Wire Line
 	6250 3850 6650 3850
 Wire Wire Line
-	6100 2200 6250 2200
+	6100 2600 6250 2600
 Wire Wire Line
 	6350 3750 6650 3750
 Wire Wire Line
-	6350 1900 6350 3750
+	5700 2500 5700 2600
 Wire Wire Line
-	5700 2100 5700 2200
-Wire Wire Line
-	5700 2000 5700 1900
+	5700 2400 5700 2300
 $Comp
 L Device:R R4
 U 1 1 5F1AE097
-P 5950 2200
-F 0 "R4" V 5743 2200 50  0000 C CNN
-F 1 "22" V 5834 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 2200 50  0001 C CNN
-F 3 "~" H 5950 2200 50  0001 C CNN
-	1    5950 2200
-	0    1    1    0   
+P 5950 2600
+F 0 "R4" V 5743 2600 50  0000 C CNN
+F 1 "22" V 5834 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 2600 50  0001 C CNN
+F 3 "~" H 5950 2600 50  0001 C CNN
+	1    5950 2600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5F1AE09D
-P 5950 1900
-F 0 "R3" V 5743 1900 50  0000 C CNN
-F 1 "22" V 5834 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 1900 50  0001 C CNN
-F 3 "~" H 5950 1900 50  0001 C CNN
-	1    5950 1900
-	0    1    1    0   
+P 5950 2300
+F 0 "R3" V 5743 2300 50  0000 C CNN
+F 1 "22" V 5834 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 2300 50  0001 C CNN
+F 3 "~" H 5950 2300 50  0001 C CNN
+	1    5950 2300
+	0    -1   -1   0   
 $EndComp
-Connection ~ 5950 1400
+Connection ~ 5950 1800
 Wire Wire Line
-	6450 1400 5950 1400
-Wire Wire Line
-	6450 3650 6450 1400
+	6450 1800 5950 1800
 Wire Wire Line
 	6650 3650 6450 3650
 Wire Wire Line
-	5950 1300 5950 1400
+	5950 1700 5950 1800
 $Comp
 L power:VCC #PWR0110
 U 1 1 5F1AE0A9
-P 5950 1300
-F 0 "#PWR0110" H 5950 1150 50  0001 C CNN
-F 1 "VCC" V 5965 1427 50  0000 L CNN
-F 2 "" H 5950 1300 50  0001 C CNN
-F 3 "" H 5950 1300 50  0001 C CNN
-	1    5950 1300
+P 5950 1700
+F 0 "#PWR0110" H 5950 1550 50  0001 C CNN
+F 1 "VCC" V 5965 1827 50  0000 L CNN
+F 2 "" H 5950 1700 50  0001 C CNN
+F 3 "" H 5950 1700 50  0001 C CNN
+	1    5950 1700
 	1    0    0    -1  
 $EndComp
 Connection ~ 6100 4050
@@ -576,50 +572,23 @@ Wire Wire Line
 	3250 5050 3400 5050
 NoConn ~ 8800 3750
 Wire Wire Line
-	6100 1900 6350 1900
+	6100 2300 6350 2300
+Connection ~ 5700 2300
+Connection ~ 5700 2600
 Wire Wire Line
-	6250 2200 6250 3850
-Connection ~ 5700 1900
-Connection ~ 5700 2200
+	5700 2600 5800 2600
 Wire Wire Line
-	5700 2200 5800 2200
+	5700 2300 5800 2300
 Wire Wire Line
-	5700 1900 5800 1900
+	5500 2400 5700 2400
 Wire Wire Line
-	4600 4000 4600 4050
+	5500 2600 5700 2600
 Wire Wire Line
-	5500 2000 5700 2000
+	5500 2300 5700 2300
 Wire Wire Line
-	5500 2200 5700 2200
+	5500 2500 5700 2500
 Wire Wire Line
-	5500 1900 5700 1900
-Wire Wire Line
-	5500 2100 5700 2100
-Wire Wire Line
-	5950 1400 5500 1400
-$Comp
-L Connector:USB_C_Receptacle J1
-U 1 1 5FF17B03
-P 4900 2400
-F 0 "J1" H 5007 3667 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 5007 3576 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_Amphenol_12401610E4-2A" H 5050 2400 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5050 2400 50  0001 C CNN
-	1    4900 2400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5500 1600
-NoConn ~ 5500 1700
-NoConn ~ 5500 2400
-NoConn ~ 5500 2500
-NoConn ~ 5500 2700
-NoConn ~ 5500 2800
-NoConn ~ 5500 3000
-NoConn ~ 5500 3100
-NoConn ~ 5500 3300
-NoConn ~ 5500 3400
-NoConn ~ 5500 3600
-NoConn ~ 5500 3700
+	5950 1800 5500 1800
 $Sheet
 S 1750 3750 1500 1700
 U 5F1B28AF
@@ -748,13 +717,6 @@ Wire Wire Line
 	8800 3550 8900 3550
 Wire Wire Line
 	8800 5550 9000 5550
-Wire Wire Line
-	4600 4050 4900 4050
-Wire Wire Line
-	4900 4000 4900 4050
-Connection ~ 4900 4050
-Wire Wire Line
-	4900 4050 6100 4050
 Text Label 1500 4900 0    50   ~ 0
 col2
 Wire Wire Line
@@ -806,4 +768,84 @@ Wire Wire Line
 NoConn ~ 8950 3850
 Wire Wire Line
 	6350 4650 6650 4650
+$Comp
+L Device:R R6
+U 1 1 5F27B3AB
+P 6700 2350
+F 0 "R6" V 6493 2350 50  0000 C CNN
+F 1 "5.1k" V 6584 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 2350 50  0001 C CNN
+F 3 "~" H 6700 2350 50  0001 C CNN
+	1    6700 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F27BA1B
+P 7000 2350
+F 0 "R5" V 6793 2350 50  0000 C CNN
+F 1 "5.1k" V 6884 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 2350 50  0001 C CNN
+F 3 "~" H 7000 2350 50  0001 C CNN
+	1    7000 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 2000 7000 2000
+Wire Wire Line
+	7000 2000 7000 2200
+Wire Wire Line
+	6700 2200 6700 2100
+Wire Wire Line
+	6700 2100 5500 2100
+$Comp
+L power:GND #PWR0118
+U 1 1 5F2A63DE
+P 6850 2700
+F 0 "#PWR0118" H 6850 2450 50  0001 C CNN
+F 1 "GND" V 6855 2572 50  0000 R CNN
+F 2 "" H 6850 2700 50  0001 C CNN
+F 3 "" H 6850 2700 50  0001 C CNN
+	1    6850 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2500 6700 2600
+Wire Wire Line
+	6700 2600 6850 2600
+Wire Wire Line
+	6850 2600 6850 2700
+Wire Wire Line
+	7000 2500 7000 2600
+Wire Wire Line
+	7000 2600 6850 2600
+Connection ~ 6850 2600
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5F2C13EB
+P 4900 2400
+F 0 "J1" H 5007 3267 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 5007 3176 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 5050 2400 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5050 2400 50  0001 C CNN
+	1    4900 2400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5500 2900
+NoConn ~ 5500 3000
+Wire Wire Line
+	4600 4050 4900 4050
+Wire Wire Line
+	4600 3300 4600 4050
+Wire Wire Line
+	4900 3300 4900 4050
+Connection ~ 4900 4050
+Wire Wire Line
+	4900 4050 6100 4050
+Wire Wire Line
+	6250 2600 6250 3850
+Wire Wire Line
+	6350 2300 6350 3750
+Wire Wire Line
+	6450 3650 6450 1800
 $EndSCHEMATC

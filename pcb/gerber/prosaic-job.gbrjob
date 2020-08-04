@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2020-08-01T22:19:26-04:00"
+    "CreationDate":  "2020-08-04T19:17:24-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "prosaic",
       "GUID": "70726f73-6169-4632-9e6b-696361645f70",
-      "Revision": "A"
+      "Revision": "A.1"
     },
     "Size":
     {
